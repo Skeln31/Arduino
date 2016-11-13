@@ -44,7 +44,7 @@ void setup() {
   lcd.begin(16,2); //On initialise le lcd avec ses dimensions (16 caracteres par ligne, sur 2 lignes)
 }
 
-// Boucle d'éxecution:
+// Boucle d'éxecution
 void loop() {
   //Récupère la temperature interieur avec la dht
   float tempInterieur = dht.readTemperature();
